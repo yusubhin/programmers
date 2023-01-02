@@ -2,10 +2,9 @@ package programmers_level_1;
 
 public class ªÔ√—ªÁ {
 	public static void main(String[] args) {
-        int num;
+        int num = 12;
         int result;
         
-        num = 12;
         result = solution(num);
         
         System.out.println(result);
