@@ -32,7 +32,7 @@ public class Solution {
 	}
 	
 	public static void main(String[] args) {
-		String str = "banana";
+		String str = "newww";
 		int[] result;
 		
 		result = solution(str);
