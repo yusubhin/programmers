@@ -4,6 +4,7 @@ public class Solution {
 	public static int solution(String t, String p) {
         int answer = 0;
         int i = 0;
+        int idx;
         int len = p.length();
         long nump = Long.parseLong(p); 
         
