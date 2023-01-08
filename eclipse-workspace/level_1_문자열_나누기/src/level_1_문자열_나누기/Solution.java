@@ -8,28 +8,19 @@ class Solution {
         int cntX = 0;
         int cntNX = 0;
         int cntSp = 0;
-        int j = 0;
         int len = s.length();
         
-        for(int i=0; i<len; i++) {
-        	//x = s.charAt(0);
+        for(int i=0; i<s.length(); i++) {
         	if(s.charAt(i) == x) cntX ++;
         	else cntNX ++;
-        	//j++;
         	if(cntX == cntNX || i == len-1) {
         		if(i != len-1)
         			x = s.charAt(i+1);
-        		//s = s.substring(j);
-        		//j = 0;
-        		//cntX = 0;
-        		//cntNX = 0;
         		cntSp++;
         	}	
         }
         
-        answer = cntSp;
-        
-        return answer;
+        return cntSp;
     }
     
     public static void main(String[] args) {
